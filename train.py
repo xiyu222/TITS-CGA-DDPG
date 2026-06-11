@@ -12,7 +12,7 @@ start = time.time()
 # AN_file_name: file name to output action network parameters to (defult is "Action_Net")
 # VN_file_name: file name to output value network parameters to (default is "Value_Net")
 
-# 开始训练
+# train
 run_Nash_Agent(MAX_EPISOIDE=1500 ,MAX_TIME_STEP=15, AN_file_name = "Action_Net")
 end = time.time()
 print(end-start)
