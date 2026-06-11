@@ -1,5 +1,5 @@
-# DDQN–PV
-Source code for the paper entitled "Joint Differential Game and Double Deep Q-networks for Suppressing Malware Spread in Industrial Internet of Things" submitted to IEEE Transactions on Information Forensics & Security for possible publication.
+# CGA-DDPG
+Source code for the paper entitled "Task Offloading Optimization for Vehicular Edge Computing: Multi-Agent DRL Approach with Stochastic Games and Channel Graph Attention" submitted to IEEE Transactions on Intelligent Transportation Systems for possible publication.
 
 # Requirements
 •	Python 3.6+
@@ -11,11 +11,11 @@ Source code for the paper entitled "Joint Differential Game and Double Deep Q-ne
 •	Matplotlib 2.2.2
 
 # Functions
-•	env.py: The environment in which algorithms interact.
+•	simulation_lib.py: The environment in which algorithms interact.
 
-•	DDQN.py: Deep reinforcement learning algorithm used by DDQN-PV.
+•	nashRL_netlib.py: Deep reinforcement learning algorithm used by CGA-DDPG.
 
-•	train~.py: The performance and comparison of DDQN-PV algorithm.
+•	train.py: The performance and comparison of CGA-DDPG algorithm.
 
 # Usage
-Run the train～.py file directly.
+Run the train.py file directly.
