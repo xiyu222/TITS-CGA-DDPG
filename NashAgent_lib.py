@@ -168,7 +168,6 @@ class NashNN():
     :param term_cost:    Terminal costs (estimated or otherwise)
     """
 
-    # 方法初始化网络、优化器、损失函数以及经验池和 SumTree
     def __init__(self, input_dim, output_dim, nump, t, t_cost, term_cost, num_moms = 5):
         self.num_players = nump
         # self.T = t
