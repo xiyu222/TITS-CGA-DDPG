@@ -298,7 +298,6 @@ class NashNN():
         """
         # expanded_states = torch.tensor(self.expand_list(states)).float()
         # action_list = self.action_net.forward(invar_input = expanded_states[:,3:].cuda(), non_invar_input = expanded_states[:,0:3].cuda())
-        # 对action_list进行归一化
         states = states.view(-1, self.state_dim)
         action = self.action_net(states)
         action = torch.clamp(action, 0.01, 0.99)
